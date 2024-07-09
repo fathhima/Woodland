@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    width: 100%;
+    height: 79px;
+    background: #fff;
+}
+
+header .first-header {
+    height: 29px;
+    background: rgb(30, 81, 30);
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
+    padding-left: 1300px;
+    padding-top: 5px;
+}
+
+.first-header,
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.v1,
+.v2 {
+    border-left: 1px solid white;
+    height: 29px;
+}
+
+header .second-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: relative;
+}
+
+.second-header .left {
+    padding-left: 35px;
+}
+
+.second-header .left .menus {
+    color: rgb(30, 81, 30);
+    display: flex;
+}
+
+.second-header .left .menus a {
+    display: flex;
+    color: rgb(30, 81, 30);
+
+}
+
+.men {
+    position: absolute;
+    top: 20px;
+    padding-left: 140px;
+}
+
+.women {
+    position: absolute;
+    top: 20px;
+    padding-left: 200px;
+}
+
+.brands {
+    position: absolute;
+    top: 20px;
+    padding-left: 280px;
+}
+
+.aboutus {
+    position: absolute;
+    top: 20px;
+    padding-left: 355px;
+}
+
+.labs {
+    position: absolute;
+    top: 20px;
+    padding-left: 445px;
+}
+
+.sale {
+    position: absolute;
+    top: 20px;
+    padding-left: 505px;
+}
+
+.right button {
+    position: absolute;
+    padding: 8px;
+    top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    right: 13px;
+    border-radius: 5px;
+    background: none;
+}
+
+/* content */
+.collage-1 {
+    width: 100%px;
+    height: 297px;
+    background: #fff;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.coll-1 {
+    display: flex;
+    position: relative;
+    padding-left: 220px;
+    padding-right: 220px;
+    justify-content: space-between;
+}
+
+.collage-1 .coll-1 img {
+    width: 200px;
+    height: 217.6px;
+    display: flex;
+}
+
+.txt {
+    padding-left: 220px;
+    padding-right: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt .txt-1 .t1,
+.t2,
+.t3,
+.t4,
+.t5 {
+    position: absolute;
+}
+
+.txt .txt-1 {
+    width: 200px;
+    height: 79.88px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.txt .txt-1 .off {
+    color: rgb(225, 11, 11);
+    position: absolute;
+    top: 20px;
+}
+
+.txt .txt-1 h3 {
+    margin-bottom: 8px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 450px;
+    background: rgb(30, 81, 30);
+}
+
+.icons {
+    padding-left: 50px;
+}
+
+.footer-content.footer-1.ul {
+    padding-left: 50px;
+    width: 100%;
+    height: 300px;
+    background: yellow;
+}
+
+.content {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    width: 1518px;
+    height: 200px;
+    padding-left: 20px;
+    margin-top: 50px;
+    padding-right: 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+.iconss {
+    display: flex;
+    color: #fff;
+    width: 500px;
+    height: 30px;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.last {
+    display: flex;
+}
+
+.last .last-1 {
+    display: flex;
+    width: 850px;
+    height: 30px;
+    color: #fff;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.last-2 {
+    display: flex;
+    width: 400px;
+    height: 30px;
+    color: #fff;
+    align-items: center;
+    margin-left: 270px
+}
+
+form input {
+    height: 40px;
+    padding: 20px;
+    width: 350px;
+}
